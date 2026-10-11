@@ -1,0 +1,271 @@
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.rsuser
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Visual Studio cache/options
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+.localhistory/
+.vshistory/
+
+# IDE - JetBrains
+.idea/
+*.sln.iml
+
+# IDE - other
+.JustCode
+.cr/
+.cr/personal
+.mfractor/
+.ionide/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+BenchmarkDotNet.Artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Azure
+csx/
+*.build.csdef
+ecf/
+rcf/
+PublishScripts/
+ASALocalRun/
+
+# Publish
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Code coverage
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+OpenCover/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Build artifacts
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*_i.c
+*_p.c
+*_i.h
+*_h.h
+*.iobj
+*.ipdb
+*_wpftmp.csproj
+*.tlog
+*.e2e
+*.binlog
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Misc
+*.GhostDoc.xml
+*.dotCover
+*.mm.*
+AutoTest.Net/
+.sass-cache/
+.ntvs_analysis.dat
+.axoCover/*
+!.axoCover/settings.json
+*.jmconfig
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+*.tss
+*.nvuser
+healthchecksdb
+FodyWeavers.xsd
+ScaffoldingReadMe.txt
+StyleCopReport.xml
+mono_crash.*
+.claude/
+Generated\ Files/
+ServiceFabricBackup/
+*.rptproj.bak
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+MigrationBackup/
+*.vbw
+*.vbp
+*.dsw
+*.dsp
+*.opt
+*.plg
+*.fake/
+.paket/paket.exe
+paket-files/
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.psess
+*.vsp
+*.vspx
+*.sap
+$tf/
+*.gpState
+_TeamCity*
+_Chutzpah*
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+*.[Cc]ache
+!*.[Cc]ache/
+!?*.[Cc]ache/
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+dlldata.c
+project.lock.json
+project.fragment.lock.json
+artifacts/
+FakesAssemblies/
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+publish/
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+_Pvt_Extensions
+**.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+*.db-shm
+*.db-wal

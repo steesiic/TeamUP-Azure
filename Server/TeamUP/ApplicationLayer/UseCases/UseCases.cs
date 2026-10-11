@@ -1,0 +1,41 @@
+namespace ApplicationLayer.UseCases
+{
+    public enum UseCases
+    {
+        Login = 1,
+        GetKorisnika = 2,
+        GetKorisnike = 3,
+        RegisterUser = 4,
+        GetObjekat = 5,
+        GetObjekte = 6,
+        CreateObjekat = 7,
+        UpdateObjekat = 8,
+        DeleteObjekat = 9,
+        GetSport = 10,
+        GetSportove = 11,
+        CreateSport = 12,
+        DeleteSport = 13,
+        GetTermin = 14,
+        GetTermine = 15,
+        CreateTermin = 16,
+        UpdateTermin = 17,
+        DeleteTermin = 18,
+        GetRezervaciju = 19,
+        GetRezervacije = 20,
+        CreateRezervaciju = 21,
+        UpdateRezervaciju = 22,
+        DeleteRezervaciju = 23,
+        JoinTermin = 24,
+        LeaveTermin = 25,
+        UpdateIgracStatus = 26,
+        UpdateKorisnika = 27,
+        DeleteKorisnika = 28,
+        CreateOcena = 29,
+        UpdateOcena = 30,
+        DeleteOcena = 31,
+        GetOcene = 32,
+        CreateOcenaIgraca = 33,
+        UpdateOcenaIgraca = 34,
+        GetOceneIgraca = 35
+    }
+}
