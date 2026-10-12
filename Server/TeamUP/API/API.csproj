@@ -23,4 +23,13 @@
     <ProjectReference Include="..\Implementation\Implementation.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <None Update="teamup.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+
 </Project>
