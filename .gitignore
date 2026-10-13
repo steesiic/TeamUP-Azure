@@ -269,3 +269,6 @@ _Pvt_Extensions
 **/*.Server/ModelManifest.xml
 *.db-shm
 *.db-wal
+
+# Local SQLite database
+/Server/TeamUP/API/teamup.db
