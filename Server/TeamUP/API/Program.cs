@@ -26,18 +26,21 @@ builder.Services.AddDbContext<TeamUpContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")
         ?? "Data Source=teamup.db"));
 
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("Frontend", policy =>
     {
         policy.SetIsOriginAllowed(origin => {
             var uri = new Uri(origin);
-            return uri.Host == "localhost";
+            return uri.Host == "localhost"
+                || uri.Host == "teamupfrontend1708.z36.web.core.windows.net";
         })
         .AllowAnyHeader()
         .AllowAnyMethod();
     });
 });
+
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>

@@ -1,1 +1,1 @@
-export const API_URL = 'http://localhost:5001/api';
+export const API_URL = 'https://teamup-api-1708-fpg5e0epeydcg3bg.polandcentral-01.azurewebsites.net/api';

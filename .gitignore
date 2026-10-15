@@ -272,3 +272,5 @@ _Pvt_Extensions
 
 # Local SQLite database
 /Server/TeamUP/API/teamup.db
+# Azure deployment package
+Server/TeamUP/teamup-api.zip
