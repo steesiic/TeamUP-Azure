@@ -174,4 +174,9 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+//test za deployment
+
+app.MapGet("/api/deployment-check", () =>
+    new { status = "ok", version = "backend-v1" });
+
 app.Run();

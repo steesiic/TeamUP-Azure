@@ -199,7 +199,7 @@ export default function Home({ onRezervisi }) {
               Spreman za igru?
             </h2>
             <p style={{ color: 'rgba(255,255,255,0.75)', fontSize: 15, marginBottom: '1.5rem' }}>
-              Pronađi slobodan teren u svom gradu i rezerviši ga za par sekundi.
+              Pronađi slobodan teren u svom gradu i rezerviši ga za nekoliko sekundi.
             </p>
             <button
               onClick={() => navigate('/rezultati')}
